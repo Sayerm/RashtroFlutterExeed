@@ -8,7 +8,7 @@ void main() {
       theme: ThemeData(
         primaryColor: primaryColor,
         primaryTextTheme: TextTheme(headline6: TextStyle(color: Colors.white)),
-        appBarTheme: AppBarTheme(actionsIconTheme: IconThemeData(color: Colors.white),
+        appBarTheme: AppBarTheme(color: primaryColor,actionsIconTheme: IconThemeData(color: Colors.white),
         iconTheme: IconThemeData(color: Colors.white)),
         fontFamily: "serif",
         scaffoldBackgroundColor: Colors.green[100],
